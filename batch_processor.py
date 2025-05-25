@@ -88,7 +88,7 @@ try:
         .option("url", "jdbc:postgresql://localhost:5432/twitter_data") \
         .option("dbtable", "batch_sentiment_counts") \
         .option("user", "postgres") \
-        .option("password", "SiRi123.") \
+        .option("password", "<enter your password>") \
         .option("driver", "org.postgresql.Driver") \
         .mode("overwrite") \
         .save()
@@ -99,7 +99,7 @@ try:
         .option("url", "jdbc:postgresql://localhost:5432/twitter_data") \
         .option("dbtable", "batch_hashtags") \
         .option("user", "postgres") \
-        .option("password", "SiRi123.") \
+        .option("password", "<enter your password>") \
         .option("driver", "org.postgresql.Driver") \
         .mode("overwrite") \
         .save()
@@ -110,7 +110,7 @@ try:
         .option("url", "jdbc:postgresql://localhost:5432/twitter_data") \
         .option("dbtable", "batch_airline_sentiment") \
         .option("user", "postgres") \
-        .option("password", "SiRi123.") \
+        .option("password", "<enter your password>") \
         .option("driver", "org.postgresql.Driver") \
         .mode("overwrite") \
         .save()
@@ -134,7 +134,7 @@ try:
         .option("url", "jdbc:postgresql://localhost:5432/twitter_data") \
         .option("dbtable", "performance_metrics") \
         .option("user", "postgres") \
-        .option("password", "SiRi123.") \
+        .option("password", "<enter your password>") \
         .option("driver", "org.postgresql.Driver") \
         .mode("append") \
         .save()
