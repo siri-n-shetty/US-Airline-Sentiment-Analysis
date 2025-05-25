@@ -82,7 +82,7 @@ try:
                     .option("url", "jdbc:postgresql://localhost:5432/twitter_data") \
                     .option("dbtable", table_name) \
                     .option("user", "postgres") \
-                    .option("password", "SiRi123.") \
+                    .option("password", "<enter your password>") \
                     .option("driver", "org.postgresql.Driver") \
                     .mode(mode) \
                     .save()
