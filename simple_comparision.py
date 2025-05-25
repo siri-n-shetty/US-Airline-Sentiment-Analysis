@@ -9,7 +9,7 @@ import time
 DB_CONFIG = {
     "dbname": "twitter_data",
     "user": "postgres",
-    "password": "SiRi123.",
+    "password": "<enter your password>",
     "host": "localhost"
 }
 
